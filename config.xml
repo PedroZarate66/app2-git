@@ -5,10 +5,10 @@
   id ="com.phonegap.app2"
   version ="1.0.0">
   
-  <name>app2 DATOS ALUMNOS</name>
+  <name>app3 Día mundial de la bicicleta</name>
   
   <description>
-  Aplicacion que muestra los DATOS del alumno
+  Aplicacion que muestra la historia de la bicicleta
   </description>
   
   <author href="https://build.phonegap.com" email="cb16.mendoza.zarate.pedro@gmail.com">
@@ -23,6 +23,13 @@
   <preference name="fullscreen" value="true"/>
   <preference name="android-installLocation" value="auto"/>
   <preference name="permissions" value="INTERNET"/>
+  
+  <!--Para accesar a padinas en internet-->
+  <allow-intent href="https://*/*"/>
+  <acces origin="https://*/*"/>
+  <allow-intent href="http://*/*"/>
+  <acces origin="http://*/*"/>
+  <plugin name="cordova-plugin-whitelist" source="npm"/>
   
   <!--Plugins-->
   <!--Core plugins-->
